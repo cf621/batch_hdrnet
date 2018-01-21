@@ -35,7 +35,7 @@ The folders under the training data folder represent different task. Look at `sa
 
 You can monitor the training process using Tensorboard:
 
-    tensorboard --logdir <batch_checkpoint_dir>
+    tensorboard --logdir <each_task_checkpoint_dir>
 
 To run a trained model on a novel image (or set of images), use:
 
