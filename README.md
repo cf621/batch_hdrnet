@@ -29,7 +29,7 @@ Please refer hdrnet project  [Code Page](https://github.com/mgharbi/hdrnet)
 
 To train a batch of models, run the following command:
 
-    ./hdrnet/bin/batch train.py <batch_checkpoint_dir> <path/to_training_data/folder>
+    ./hdrnet/bin/batch_train.py <batch_checkpoint_dir> <path/to_training_data/folder>
 
 The folders under the training data folder represent different task. Look at `sample_data/identity/` for a typical structure of the each training task data folder.
 
