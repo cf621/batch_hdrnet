@@ -24,6 +24,9 @@ import tensorflow as tf
 from tensorflow.python.tools import freeze_graph
 from tensorflow.core.framework import graph_pb2
 
+import sys
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../'))
+
 import hdrnet.utils as utils
 import hdrnet.models as models
 
